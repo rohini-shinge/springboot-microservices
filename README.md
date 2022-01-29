@@ -25,3 +25,25 @@ Links:
 The HAL browser was created by the same person who developed HAL and provides an in-browser GUI to traverse your REST API.
 
 ---
+
+**Versioning**
+
+1. Media type versioning (a.k.a “content negotiation” or “accept header”) - GitHub
+2. (Custom) headers versioning - Microsoft
+3. URI Versioning - Twitter
+4. Request Parameter versioning - Amazon
+
+*Factors*
+URI Pollution
+Misuse of HTTP Headers
+Caching
+Can we execute the request on the browser?
+API Documentation
+No Perfect Solution
+
+*More*
+https://www.mnot.net/blog/2011/10/25/web_api_versioning_smackdown
+http://urthen.github.io/2013/05/09/ways-to-version-your-api/
+http://stackoverflow.com/questions/389169/best-practices-for-api-versioning
+http://www.lexicalscope.com/blog/2012/03/12/how-are-rest-apis-versioned/
+https://www.3scale.net/2016/06/api-versioning-methods-a-brief-reference/
