@@ -33,8 +33,7 @@ The HAL browser was created by the same person who developed HAL and provides an
 3. URI Versioning - Twitter
 4. Request Parameter versioning - Amazon
 
-**Factors**
-URI Pollution,Misuse of HTTP Headers,Caching,Can we execute the request on the browser?,API Documentation
+**Factors** - URI Pollution,Misuse of HTTP Headers,Caching,Can we execute the request on the browser?,API Documentation
 
 ***More***
 1. https://www.mnot.net/blog/2011/10/25/web_api_versioning_smackdown
