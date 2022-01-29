@@ -13,15 +13,15 @@ Actuator is mainly used to expose operational information about the running appl
 The HAL model revolves around two simple concepts.
 
 Resources, which contain:
+1. Links to relevant URIs
+2. Embedded Resources
+3. State
 
-Links to relevant URIs
-Embedded Resources
-State
 Links:
+1. A target URI
+2. A relation, or rel, to the link
+3. A few other optional properties to help with depreciation, content negotiation, etc
 
-A target URI
-A relation, or rel, to the link
-A few other optional properties to help with depreciation, content negotiation, etc
 The HAL browser was created by the same person who developed HAL and provides an in-browser GUI to traverse your REST API.
 
 ---
