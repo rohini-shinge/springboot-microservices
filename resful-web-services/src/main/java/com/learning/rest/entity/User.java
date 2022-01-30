@@ -1,4 +1,4 @@
-package com.learning.microservices.entity;
+package com.learning.rest.entity;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;

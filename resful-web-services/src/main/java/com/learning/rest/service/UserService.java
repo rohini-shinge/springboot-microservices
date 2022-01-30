@@ -1,12 +1,12 @@
-package com.learning.microservices.service;
+package com.learning.rest.service;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.learning.microservices.entity.User;
-import com.learning.microservices.repository.UserRepository;
+import com.learning.rest.entity.User;
+import com.learning.rest.repository.UserRepository;
 
 @Service
 public class UserService {

@@ -1,4 +1,4 @@
-package com.learning.microservices.controller;
+package com.learning.rest.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
