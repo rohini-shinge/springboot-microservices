@@ -53,3 +53,11 @@ The HAL browser was created by the same person who developed HAL and provides an
 5. Pack of Cards - How one microservice fault can take down all the microservices
 
 ---
+**Microservices Advantages**
+
+1. New Technology and Process Adaption
+2. Dynamic Scaling
+
+---
+
+
