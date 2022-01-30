@@ -43,3 +43,13 @@ The HAL browser was created by the same person who developed HAL and provides an
 5. https://www.3scale.net/2016/06/api-versioning-methods-a-brief-reference/
 
 ---
+
+**Microservices Challenges**
+
+1. Bounded Context
+2. Configuration Manangement
+3. Dynamic Scale Up and Scale Down
+4. Visibility
+5. Pack of Cards - How one microservice fault can take down all the microservices
+
+---
