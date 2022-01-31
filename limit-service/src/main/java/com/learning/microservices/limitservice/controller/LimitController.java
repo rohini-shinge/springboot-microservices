@@ -13,7 +13,7 @@ public class LimitController {
 	@Autowired
 	private Configuration configuration;
 	
-	@GetMapping(path = "/limits")
+	@GetMapping("/limits")
 	public Limit retriveAllLimits()
 	{
 		return new Limit(configuration.getMinimum(),configuration.getMaximum());

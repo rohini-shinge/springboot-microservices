@@ -23,5 +23,4 @@ public class Configuration {
 		this.maximum = maximum;
 	}
 	
-	
 }
