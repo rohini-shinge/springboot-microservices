@@ -24,6 +24,10 @@ public class CurrencyExchangeController {
 	public CurrencyExchange retrieveExchangeValue(@PathVariable String from,@PathVariable String to)
 	{
 		CurrencyExchange currencyExchange= currencyExchangeRepository.findByFromAndTo(from, to);
+		if(currencyExchange==null)
+		{
+			throw new RuntimeException("Unable to find data");
+		}
 		currencyExchange.setEnvironment(environment.getProperty("local.server.port"));
 		return currencyExchange;
 	}
