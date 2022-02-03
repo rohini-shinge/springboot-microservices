@@ -73,11 +73,12 @@ If you are using Window 10 and are using docker toolbox
 
 Note: If 192.168.99.100 does not work, you can find the IP by using the command docker-machine ip
 
-*Reason*
+**Reason**
 
 In Window 10 when using docker toolbox, docker is configured to use the default machine with IP 192.168.99.100
 
 Docker Registry : https://hub.docker.com
+
 Running Version of Image : Container
 
 **-- General Commands --**
@@ -89,6 +90,7 @@ Running Version of Image : Container
 5. docker container ls -a --- Shows all the containers irrespective of thier status
 6. docker images - Shows only pulled images on local
 7. docker container stop 'id' --- to stop the running container
+
 
 ---
 
