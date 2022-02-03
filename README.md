@@ -97,7 +97,11 @@ Note: If 192.168.99.100 does not work, you can find the IP by using the command 
 14. docker container unpause 'Id'
 15. docker container stop 'Id' => Stop gracefully
 16. docker container kill 'Id' => Immediately terminate the process
-
+17. docker stats
+17. docker events
+18. docker top 'Id'
+19. docker run -m 512m --cpu quota 50000
+20. docker system df
 ---
 
 
