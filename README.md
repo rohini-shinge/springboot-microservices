@@ -95,6 +95,9 @@ Note: If 192.168.99.100 does not work, you can find the IP by using the command 
 12. docker image remove 'imageId' => Only remove from local machine
 13. docker container pause 'Id'
 14. docker container unpause 'Id'
+15. docker container stop 'Id' => Stop gracefully
+16. docker container kill 'Id' => Immediately terminate the process
+
 ---
 
 
