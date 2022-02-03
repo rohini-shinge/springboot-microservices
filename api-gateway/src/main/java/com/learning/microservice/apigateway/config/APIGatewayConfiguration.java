@@ -16,7 +16,5 @@ public class APIGatewayConfiguration {
 				route(p->p.path("/currency-conversion/**").uri("lb://currency-conversion")).
 				route(p->p.path("/currency-conversion-feign/**").uri("lb://currency-conversion")).
 				build();
-			
 	}
-
 }
