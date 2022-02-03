@@ -88,8 +88,13 @@ Note: If 192.168.99.100 does not work, you can find the IP by using the command 
 5. docker container ls -a => Shows all the containers irrespective of thier status
 6. docker images => Shows only pulled images on local
 7. docker container stop 'id' => To stop the running container
-
-
+8. docker pull mysql
+9. docker search mysql
+10. docker image history 'imageId'
+11. docker image inspect 'imageId'
+12. docker image remove 'imageId' => Only remove from local machine
+13. docker container pause 'Id'
+14. docker container unpause 'Id'
 ---
 
 
