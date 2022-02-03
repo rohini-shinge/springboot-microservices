@@ -61,13 +61,11 @@ The HAL browser was created by the same person who developed HAL and provides an
 ---
 **Docker**
 
-RECOMMENDATION : Use PowerShell in Windows!
-
-Recommendation 1
+**Recommendation 1**
 
 If you are using Windows, make sure that you use PowerShell instead of Command Prompt.
 
-Recommendation 2
+**Recommendation 2**
 
 If you are using Window 10 and are using docker toolbox
 
@@ -75,29 +73,22 @@ If you are using Window 10 and are using docker toolbox
 
 Note: If 192.168.99.100 does not work, you can find the IP by using the command docker-machine ip
 
-Reason
+*Reason*
 
 In Window 10 when using docker toolbox, docker is configured to use the default machine with IP 192.168.99.100
 
-
--- General Commands --
-
-docker run 'Repository:Tag'
-
 Docker Registry : https://hub.docker.com
-
 Running Version of Image : Container
 
-docker run -p {host-port}:{container-port} -d 'Repository:Tag' - Running container in detached mode (-d)
+**-- General Commands --**
 
-docker logs -f 'id' - Tailing Logs
-
-docker container ls --- Shows running containers
-docker container ls -a --- Shows all the containers irrespective of thier status
-
-docker images - Shows only pulled images on local
-
-docker container stop 'id' --- to stop the running container
+1. docker run 'Repository:Tag'
+2. docker run -p {host-port}:{container-port} -d 'Repository:Tag' - Running container in detached mode (-d)
+3. docker logs -f 'id' - Tailing Logs
+4. docker container ls --- Shows running containers
+5. docker container ls -a --- Shows all the containers irrespective of thier status
+6. docker images - Shows only pulled images on local
+7. docker container stop 'id' --- to stop the running container
 
 ---
 
