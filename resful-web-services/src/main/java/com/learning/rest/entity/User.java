@@ -12,7 +12,6 @@ public class User {
 	private String birthDate;
 	
 	public User() {
-
 	}
 	
 	public User(String id, String name, String birthDate) {
