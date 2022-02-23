@@ -11,5 +11,4 @@ public class HelloController {
 	{
 		return "Hello Avani Shinge!";
 	}
-	
 }
